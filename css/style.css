@@ -1,0 +1,168 @@
+@font-face {
+  font-family: iransansdn;
+  font-style : normal;
+  font-weight: bold;
+  src        : url("../fonts/IranSansDN/eot/iransansdnbold.eot");
+  src        : url("../fonts/IranSansDN/eot/iransansdnbold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */
+    url("../fonts/IranSansDN/woff2/iransansdnbold.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+    url("../fonts/IranSansDN/woff/iransansdnbold.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url("../fonts/IranSansDN/ttf/iransansdnbold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iransansdn;
+  font-style : normal;
+  font-weight: 300;
+  src        : url("../fonts/IranSansDN/eot/iransansdnlight.eot");
+  src        : url("../fonts/IranSansDN/eot/iransansdnlight.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */
+    url("../fonts/IranSansDN/woff2/iransansdnlight.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+    url("../fonts/IranSansDN/woff/iransansdnlight.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url("../fonts/IranSansDN/ttf/iransansdnlight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: iransansdn;
+  font-style : normal;
+  font-weight: normal;
+  src        : url("../fonts/IranSansDN/eot/iransansdn.eot");
+  src        : url("../fonts/IranSansDN/eot/iransansdn.eot?#iefix") format("embedded-opentype"),
+    /* IE6-8 */
+    url("../fonts/IranSansDN/woff2/iransansdn.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+    url("../fonts/IranSansDN/woff/iransansdn.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url("../fonts/IranSansDN/ttf/iransansdn.ttf") format("truetype");
+}
+
+* {
+  font-family: iransansdn;
+  text-align : right;
+  direction  : rtl;
+  font-size  : 17px;
+  margin     : 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.nav-item {
+  float: right;
+}
+
+.placholder {
+  font-size: 14px;
+}
+
+.dropdown-menu {
+  text-align   : right;
+  border-radius: 15px;
+  font-size    : 15px;
+  margin-left  : -90px;
+  margin-right : 20px;
+  width        : 100px;
+}
+
+.dropdown-menu a {
+  font-size: 15.5px;
+}
+
+#myBtn {
+  border-radius   : 100px;
+  display         : none;
+  /* Hidden by default */
+  position        : fixed;
+  /* Fixed/sticky position */
+  bottom          : 20px;
+  /* Place the button at the bottom of the page */
+  right           : 70px;
+  /* Place the button 30px from the right */
+  background-color: rgb(255, 136, 0);
+  /* Set a background color */
+  color           : white;
+  /* Text color */
+  cursor          : pointer;
+  /* Add a mouse pointer on hover */
+  padding         : 15px;
+  /* Some padding */
+  font-size       : 30px;
+  /* Increase font size */
+  z-index         : 10000000000;
+}
+
+#myBtn:hover {
+  background-color: rgb(255, 0, 0);
+  /* Add a dark-grey background on hover */
+}
+
+@media (max-width:950px) {
+  #myBtn {
+    border-radius   : 100px;
+    display         : none;
+    /* Hidden by default */
+    position        : fixed;
+    /* Fixed/sticky position */
+    bottom          : 20px;
+    /* Place the button at the bottom of the page */
+    right           : 20px;
+    /* Place the button 30px from the right */
+    background-color: rgb(255, 136, 0);
+    /* Set a background color */
+    color           : white;
+    /* Text color */
+    cursor          : pointer;
+    /* Add a mouse pointer on hover */
+    padding         : 15px;
+    /* Some padding */
+    font-size       : 30px;
+    /* Increase font size */
+  }
+}
+
+@media (max-width:600px) {
+  #myBtn {
+    border-radius   : 20px;
+    display         : none;
+    /* Hidden by default */
+    position        : fixed;
+    /* Fixed/sticky position */
+    bottom          : 20px;
+    /* Place the button at the bottom of the page */
+    right           : 20px;
+    /* Place the button 30px from the right */
+    background-color: rgb(255, 136, 0);
+    /* Set a background color */
+    padding         : 5px;
+    width           : 40px;
+    height          : 40px;
+  }
+}
+.title h1{
+  font-size: 100px;
+}
+.center-par{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fl-dr-col{
+  flex-direction: column;
+}
+.center-text{
+  text-align: center;
+}
